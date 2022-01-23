@@ -3,7 +3,7 @@
 import {
   navigate,
   addTodo,
-  validateTodoTxt,
+  validateTodoText,
   validateToggleState,
   toggleTodo,
   validateTodoCompletedState,
@@ -19,7 +19,7 @@ describe("todo actions", () => {
   });
 
   it("should add a new todo to the list", () => {
-    validateTodoTxt(0, "Clean room");
+    validateTodoText(0, "Clean room");
 
     validateToggleState(0, false);
   });
